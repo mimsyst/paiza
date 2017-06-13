@@ -1,6 +1,4 @@
 <?php
-    // 自分の得意な言語で
-    // Let's チャレンジ！！
     $mn = explode(" ", trim(fgets(STDIN)));
     for($i = 0; $i < $mn[0]; $i++) {
         $s[] = trim(fgets(STDIN));
